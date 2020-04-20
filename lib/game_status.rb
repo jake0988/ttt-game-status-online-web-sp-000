@@ -44,7 +44,6 @@ end
 def full?(board)
   if won?(board)
     return true
-  end
 
   # if board[0..8] == "X" || "O"
   #     return  true
