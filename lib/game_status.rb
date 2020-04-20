@@ -51,7 +51,7 @@ def full?(board)
   elsif board[0..8] == " "
         return false
       end
-  end
+  
 
 end
 
