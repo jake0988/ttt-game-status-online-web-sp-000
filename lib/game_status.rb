@@ -46,12 +46,12 @@ def full?(board)
     return true
   end
 
-  if board[0..8] == "X" || "O"
-      return  true
+  # if board[0..8] == "X" || "O"
+  #     return  true
   elsif board[0..8] == " "
         return false
       end
-  
+
 
 end
 
