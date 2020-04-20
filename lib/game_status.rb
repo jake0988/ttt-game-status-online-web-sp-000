@@ -52,7 +52,7 @@ def full?(board)
       end
 
 
-end
+
 
 def draw?(board)
   if win_combination(board)
