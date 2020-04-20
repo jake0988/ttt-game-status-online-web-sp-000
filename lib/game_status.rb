@@ -52,7 +52,7 @@ def full?(board)
       board.each do |i|
         i = " "
         return false
-
+      end
   end
 
 end
