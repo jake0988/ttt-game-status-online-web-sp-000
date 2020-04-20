@@ -49,7 +49,7 @@ def full?(board)
     board.all? do |index|
       index == "X" || "O"
       return  true
-      board.detect{|i| i.(" ")}
+      board.each {|i| i.(" ")}
         return false
 
   end
