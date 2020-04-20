@@ -59,9 +59,9 @@ end
 def draw?(board)
   if win_combination(board)
     return false
+  end
     board.detect{|i| i.(" ")}
       return false
-    end
     board.all? do |index|
       index == "X" || "O"
         return true
