@@ -36,7 +36,7 @@ def won?(board)
   end
 
 end
-if i = 8
+if i == 8
   return false
 end
 end
