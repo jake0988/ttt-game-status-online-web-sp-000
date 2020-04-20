@@ -63,8 +63,7 @@ def draw?(board)
     board.detect{|i| i.(" ")}
       return false
     end
-    board.all? do |index|
+    board.each do |index|
       index == "X" || "O"
-        return true
+         true
       end
-  
