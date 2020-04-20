@@ -63,5 +63,6 @@ def draw?(board)
 
     board.each do |index|
       index == " "
-         false
+      return   false
       end
+      return true
