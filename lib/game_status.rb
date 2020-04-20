@@ -67,4 +67,4 @@ def draw?(board)
       index == "X" || "O"
         return true
       end
-  end
+  
