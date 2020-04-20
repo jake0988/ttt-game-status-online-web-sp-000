@@ -46,8 +46,7 @@ def full?(board)
     return true
   end
 
-    board.all? do |index|
-      index == "X" || "O"
+  if index[0..8] == "X" || "O"
       return  true
       board.each do |i|
         i = " "
