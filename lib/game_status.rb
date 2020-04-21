@@ -44,12 +44,11 @@ end
 def full?(board)
   if won?(board)
     return true
-  elsif board[0..8] != "X" || "O"
-        return false
-  elsif board[0..8] == "X" || "O"
-       return  true
-
+  board.detect do |i|
+    (" ")
+    return false
     end
+    return true
   end
 
 
