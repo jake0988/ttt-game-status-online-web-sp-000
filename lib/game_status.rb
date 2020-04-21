@@ -20,70 +20,70 @@ def won?(board)
     return false
   end
 
-  i = 0
-  WIN_COMBINATIONS.each do |win_combination|
-      win_index_1 = win_combination[0]
-      win_index_2 = win_combination[1]
-      win_index_3 = win_combination[2]
-
-      position_1 = board[win_index_1]
-      position_2 = board[win_index_2]
-      position_3 = board[win_index_3]
-
-  if position_1 == ("X") && position_2 == ("X") && position_3 == ("X") || position_1 == ("O") && position_2 == ("O") && position_3 == ("O")
-    return win_combination
-  else
-     i += 1
-  end
-
-
-if i == 8
-  return false
-end
-end
-
-def full?(board)
-  if won?(board)
-    return true
-  end
-  board.each do |index|
-    if index == " "
-    return   false
-  end
-  board.each do |index|
-    if index == "X" || "O"
-    return true
-  end
-end
-
-
-
-
-
-
-def draw?(board)
-  if won?(board)
-    return false
-  end
-
-    board.each do |index|
-      if index == " "
-      return   false
-      end
-      return true
-  
-  end
-
-def over?(board)
-  if won?(board) == true || draw?(board) == true
-    return true
-  end
-    return false
-  end
-
-def winner(board)
-  if won?(board) == false || draw?(board) == true
-    return false
-  end
-
-end
+#   i = 0
+#   WIN_COMBINATIONS.each do |win_combination|
+#       win_index_1 = win_combination[0]
+#       win_index_2 = win_combination[1]
+#       win_index_3 = win_combination[2]
+#
+#       position_1 = board[win_index_1]
+#       position_2 = board[win_index_2]
+#       position_3 = board[win_index_3]
+#
+#   if position_1 == ("X") && position_2 == ("X") && position_3 == ("X") || position_1 == ("O") && position_2 == ("O") && position_3 == ("O")
+#     return win_combination
+#   else
+#      i += 1
+#   end
+#
+#
+# if i == 8
+#   return false
+# end
+# end
+#
+# def full?(board)
+#   if won?(board)
+#     return true
+#   end
+#   board.each do |index|
+#     if index == " "
+#     return   false
+#   end
+#   board.each do |index|
+#     if index == "X" || "O"
+#     return true
+#   end
+# end
+#
+#
+#
+#
+#
+#
+# def draw?(board)
+#   if won?(board)
+#     return false
+#   end
+#
+#     board.each do |index|
+#       if index == " "
+#       return   false
+#       end
+#       return true
+#
+#   end
+#
+# def over?(board)
+#   if won?(board) == true || draw?(board) == true
+#     return true
+#   end
+#     return false
+#   end
+#
+# def winner(board)
+#   if won?(board) == false || draw?(board) == true
+#     return false
+#   end
+#
+# end
