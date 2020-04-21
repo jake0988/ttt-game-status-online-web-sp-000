@@ -88,7 +88,7 @@ def winner(board)
   if won?(board) == false || draw?(board) == true
     return false
   end
-  if WIN_COMBINATIONS == "X"
+  WIN_COMBINATIONS.detect {["X"]}
     return "X"
   elsif WIN_COMBINATIONS == "O"
     return "O"
