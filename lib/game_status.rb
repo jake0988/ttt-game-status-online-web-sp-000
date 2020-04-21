@@ -51,8 +51,6 @@ def full?(board)
   board.all? do |i|
     ("X" || "O")
     return true
-    end
-    return false
   end
 
 
