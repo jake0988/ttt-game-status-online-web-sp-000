@@ -85,7 +85,7 @@ def over?(board)
   end
 
 def winner(board)
-  if draw?(board) == true
+  if draw?(board) == true || full?(board) == false
     return nil
   end
   WIN_COMBINATIONS.detect {["X"]}
