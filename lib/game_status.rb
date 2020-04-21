@@ -78,9 +78,9 @@ def over?(board)
     return false
   end
 
-def winner(board)
-  if won?(board) == false || draw?(board) == true
-    return false
-  end
-  
-end
+# def winner(board)
+#   if won?(board) == false || draw?(board) == true
+#     return false
+#   end
+#
+# end
