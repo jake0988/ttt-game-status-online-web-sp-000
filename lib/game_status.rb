@@ -44,7 +44,7 @@ end
 def full?(board)
   if won?(board)
     return true
-  elsif board[0..8] == " "
+  elsif board[0..8] != "X" || "O"
         return false
   elsif board[0..8] == "X" || "O"
        return  true
