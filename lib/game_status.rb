@@ -50,10 +50,12 @@ def full?(board)
     if index == " "
     return   false
   end
+end
   board.each do |index|
     if index == "X" || "O"
     return true
   end
+end
 end
 
 
