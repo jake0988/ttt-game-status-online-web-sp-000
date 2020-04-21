@@ -62,7 +62,7 @@ def draw?(board)
   end
 
     board.each do |index|
-      index == " "
+      if index == " "
       return   false
       end
       return true
@@ -78,4 +78,3 @@ def over?(board)
 def winner(board)
   if won?(board) == false || draw?(board) == true
     return nil
-    
