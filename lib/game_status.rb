@@ -44,6 +44,7 @@ end
 def full?(board)
   if won?(board)
     return true
+  end
   board.detect do |i|
     (" ")
     return false
