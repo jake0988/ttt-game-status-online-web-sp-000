@@ -71,8 +71,9 @@ def draw?(board)
       if index == " "
       return   false
       end
+    end
       return true
-end 
+
   end
 
 def over?(board)
