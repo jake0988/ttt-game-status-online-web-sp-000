@@ -45,11 +45,11 @@ def full?(board)
   if won?(board)
     return true
   end
-  board.detect do |i|
-    (" ")
-    return false
-    end
+  board.all? do |i|
+    ("X" || "O")
     return true
+    end
+    return false
   end
 
 
