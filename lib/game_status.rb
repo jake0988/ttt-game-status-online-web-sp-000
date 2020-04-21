@@ -57,7 +57,7 @@ def full?(board)
 
 
 def draw?(board)
-  if win_combination(board)
+  if won?(board)
     return false
   end
 
