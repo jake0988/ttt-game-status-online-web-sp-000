@@ -88,10 +88,9 @@ def winner(board)
   if draw?(board) == true || full?(board) == false
     return nil
   end
-  WIN_COMBINATIONS.detect {["X"]}
+  if WIN_COMBINATIONS[0] = "X"
     return "X"
-
-  WIN_COMBINATIONS.detect {["O"]}
+  else 
     return "O"
 
 
