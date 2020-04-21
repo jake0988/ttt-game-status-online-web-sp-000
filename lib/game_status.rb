@@ -90,8 +90,8 @@ def winner(board)
   end
   if WIN_COMBINATIONS[0] = "X"
     return "X"
-  else 
+  else
     return "O"
-
+  end
 
   end
