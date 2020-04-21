@@ -79,4 +79,3 @@ def winner(board)
   if won?(board) == false || draw?(board) == true
     return nil
   end
-end
