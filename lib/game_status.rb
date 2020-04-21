@@ -70,6 +70,7 @@ def draw?(board)
       end
       return true
     end
+    en
 
 def over?(board)
   if won?(board) == true || draw?(board) == true
