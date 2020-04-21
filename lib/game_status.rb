@@ -40,7 +40,7 @@ def won?(board)
 if i == 8
   return false
 end
-end
+
 end
 
 def full?(board)
