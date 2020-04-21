@@ -84,4 +84,3 @@ def winner(board)
   end
   return true
 end
-end
