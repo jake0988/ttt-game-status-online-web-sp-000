@@ -88,10 +88,11 @@ def winner(board)
   if draw?(board) == true || full?(board) == false
     return nil
   end
-  if WIN_COMBINATIONS[0] = "X"
+  WIN_COMBINATIONS.each do |win_combination|
+    if win_combination == "X"
     return "X"
   else
     return "O"
   end
-
+end
   end
