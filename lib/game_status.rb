@@ -90,7 +90,7 @@ def winner(board)
   end
   WIN_COMBINATIONS.detect {["X"]}
     return "X"
-  elsif WIN_COMBINATIONS == "O"
+  WIN_COMBINATIONS.detect {["O"]}
     return "O"
 
   end
