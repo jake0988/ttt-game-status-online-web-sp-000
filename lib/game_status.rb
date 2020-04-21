@@ -36,7 +36,7 @@ def won?(board)
      i += 1
   end
 
-end
+
 if i == 8
   return false
 end
