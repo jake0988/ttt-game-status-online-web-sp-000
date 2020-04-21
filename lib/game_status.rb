@@ -71,7 +71,7 @@ def draw?(board)
       return   false
       end
       return true
-    end
+  
   end
 
 def over?(board)
