@@ -60,29 +60,29 @@ end
 
 
 
-# def draw?(board)
-#   if won?(board)
-#     return false
-#   end
-#
-#     board.each do |index|
-#       if index == " "
-#       return   false
-#       end
-#       return true
-#     end
-#   end
-#
-# def over?(board)
-#   if won?(board) == true || draw?(board) == true
-#     return true
-#   end
-#     return false
-#   end
+def draw?(board)
+  if won?(board)
+    return false
+  end
 
-# def winner(board)
-#   if won?(board) == false || draw?(board) == true
-#     return false
-#   end
-#
-# end
+    board.each do |index|
+      if index == " "
+      return   false
+      end
+      return true
+    end
+  end
+
+def over?(board)
+  if won?(board) == true || draw?(board) == true
+    return true
+  end
+    return false
+  end
+
+def winner(board)
+  if won?(board) == false || draw?(board) == true
+    return false
+  end
+
+end
