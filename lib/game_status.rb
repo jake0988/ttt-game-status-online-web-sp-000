@@ -53,6 +53,7 @@ def full?(board)
     ("X" || "O")
     return true
   end
+end
 
 
 
